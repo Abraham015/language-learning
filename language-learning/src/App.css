@@ -1,0 +1,22 @@
+/* /src/App.css */
+html, body {
+  height: 100%;
+  margin: 0;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Asegura que el contenedor tenga al menos la altura del viewport */
+}
+
+.main-content {
+  flex: 1; /* Permite que el contenido principal ocupe el espacio disponible */
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
